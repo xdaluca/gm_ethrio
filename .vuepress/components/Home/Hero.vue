@@ -1,10 +1,13 @@
 <template>
   <div v-if="config.layout === 1" class="hero-main">
-    <div class="hero-main_headline-date">
-      {{ subheading }}
-    </div>
-      <div class="hero-main_headline">
+    <div class="hero-main_headline">
       {{ heading }}
+    </div>
+    <div class="hero-main_headline-date">
+      {{ dateSubheading }}
+    </div>
+    <div class="hero-main_headline-paragraph">
+      {{ subheading }}
     </div>
     <Button buttonText="See Events" to="/events/" />
   </div>
@@ -12,6 +15,9 @@
   <div v-else-if="config.layout === 0" class="hero-main">
     <div class="hero-main_headline">
       {{ heading }}
+    </div>
+    <div class="hero-main_headline-date">
+      {{ dateSubheading }}
     </div>
     <div class="hero-main_headline-date">
       {{ subheading }}
@@ -29,6 +35,7 @@ export default {
   data: () => ({
     heading: config.heading,
     subheading: config.subHeading,
+    dateSubheading: config.dateSubheading,
     config: config,
   }),
 };
@@ -43,18 +50,27 @@ export default {
   flex-direction column
   align-items center
   justify-content center
-  padding 255px 0 0 0
   width 100%
+  padding-top 10rem
 
   &_headline-date
-    font-size 22px
+    font-size clamp(2rem, calc(-.875rem + 1.8vw),8.5rem)    
     line-height 28px
     margin-bottom 1rem
+    max-width 55rem
+    text-align center
+
+  &_headline-paragraph
+    font-size clamp(1.5rem, calc(-.875rem + 1.8vw),8.5rem)    
+    line-height 28px
+    margin-bottom 3rem
+    max-width 55rem
+    text-align center
 
   &_headline
     font-size clamp(3rem, calc(-0.875rem + 8.333vw), 10.5rem)
     text-align center
-    max-width 55rem
+    max-width 85rem
     margin-bottom 2rem
 
   &_button

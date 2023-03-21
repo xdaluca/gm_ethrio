@@ -35,10 +35,11 @@ module.exports = {
   venues: [
     {
       name: "Museu de Arte do Rio",
-      desc: "The Museu de Arte do Rio promotes a transversal reading of the city’s history, its social fabric, its symbolic life, conflicts, contradictions, challenges and social expectations. MAR is located in Praça Mauá, in two buildings with both heterogeneous and interconnected profiles: the Dom João VI Mansion, listed and eclectic, which houses the exhibition rooms, and the neighbouring building, in a modernist style – originally a bus station – where the Escola do Olhar is situated.",
+      desc:
+        "MAR in Praça Mauá comprises two interconnected buildings: the eclectic Dom João VI Mansion for exhibitions, and a modernist-style former bus station for the Escola do Olhar. The museum offers a transversal reading of the city’s history, social fabric, conflicts, and challenges.",
       path: "Museu de Arte do Rio.jpeg",
     },
-     {
+    {
       name: "EthSamba Venue TBA",
       desc: "EthSamba Venue Desc TBA",
       path: "logo_gm_events.svg",

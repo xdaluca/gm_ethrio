@@ -2,7 +2,7 @@
   <div v-if="config.layout === 1" class="venues">
     <div class="venues_info">
       <div class="venues_info_tag">
-        Venue
+        Venues
       </div>
 
       <div v-for="venue in config.venues">
@@ -94,7 +94,7 @@ export default {
 
   &_info_tag
     padding 5px 20px
-    background $accentColor
+    background rgba($accentColor, 0.5)
     color $primaryAccentColor
     width fit-content
     border-radius 2px
@@ -112,8 +112,8 @@ export default {
     line-height 20px
     margin-bottom 33px
     max-width 415px
-    max-height 100px
-    height 80px
+    max-height 120px
+    height 100px
   
   &_info_button_arrow_prev
     margin-bottom: -1px
