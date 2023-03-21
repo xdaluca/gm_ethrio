@@ -52,7 +52,7 @@
           </DateTime>
         </h3> -->          
         
-        <div v-for="event in events" v-if="day.toString().replace('T01', 'T00') === event.frontmatter.date.toString()"
+        <div v-for="event in events" v-if="day.toString().slice(0, 10) === event.frontmatter.date.toString().slice(0, 10)"
           :key="event.key"
         >
           <EventPreview :event="event"/>
@@ -148,6 +148,8 @@ export default {
         }
         this.days = [];
         this.setDays();
+        console.log(this.events[0].frontmatter.date);
+        console.log(this.days);
         if (this.descending) this.days.reverse();
       }, this.animationDuration);
     },

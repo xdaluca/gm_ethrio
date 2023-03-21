@@ -29,6 +29,12 @@ module.exports = {
     "Sunday",
     "Monday",
     "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Monday",
   ],
   layout: 1, // 0 - banner layout, 1 - venue layout
   bannerPath: "TwitHeader_1500x5002.jpg", // only if banner layout
