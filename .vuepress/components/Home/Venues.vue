@@ -2,7 +2,7 @@
   <div v-if="config.layout === 1" class="venues">
     <div class="venues_info">
       <div class="venues_info_tag">
-        Venues
+        Venue
       </div>
 
       <div v-for="venue in config.venues">

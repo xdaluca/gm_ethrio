@@ -5,12 +5,12 @@ actionLink: /events/
 
 description: GM Week initiatives are happening all over the world whenever
              there is a large gathering of blockchain and cryptocurrencies enthusiasts
-             around. The Prague GM is no different.
+             around. The Rio GM is no different.
              This is a voluntary initiative which was formed around the ETHPrague 2022
              and which will provide an overview and support for all the blockchain
-             technology related events happening in Prague between June 3rd and June 12th 2022.
+             technology related events happening in Rio between March 22nd and April 3th 2023.
 
-tagline: 3. June - 12. June 2022
+tagline: 22. March - 3. April 2023
 
 features:
 - title: Paralelni Polis
@@ -34,10 +34,10 @@ footer:
 
 GM Week initiatives are happening all over the world whenever
 there is a large gathering of blockchain and cryptocurrencies enthusiasts
-around. The Prague GM is no different.
+around. The Rio GM is no different.
 This is a voluntary initiative which was formed around the ETHPrague 2022
 and which will provide an overview and support for all the blockchain
-technology related events happening in Prague between June 3rd and June 12th 2022.
+technology related events happening in Rio between March 22nd and April 3th 2023.
 
-Feel free to reach out contact@ethprague.com if you have any questions.
+Feel free to reach out contact@pwn.xyz if you have any questions.
 <br />

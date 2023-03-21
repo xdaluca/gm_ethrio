@@ -1,31 +1,46 @@
 module.exports = {
   base: "/",
-  title: "Prague GM Events",
-  heading: "GM Prague 2023",
-  subHeading: "1. January - 10. January 2023",
-  calendarHeading: "January 2023",
-  sumbitEventLink: "https://pwn.xyz/",
+  title: "Rio GM Events",
+  heading: "GM Rio 2023",
+  dateSubheading: "22. March - 3. April 2023",
+  subHeading:
+    "We're bringing the Ethereum community to Rio de Janeiro! GM events website shows you events happening in Rio and allows anyone to add and update their side event.",
+  calendarHeading: "March 2023",
+  sumbitEventLink: "https://gmevents.typeform.com/ethrio",
   startDate: {
-    day: 1,
-    month: 1,
+    day: 22,
+    month: 3,
     year: 2023,
   },
   endDate: {
-    day: 10,
-    month: 1,
+    day: 3,
+    month: 4,
     year: 2023,
   },
   daysInFirstMonth: 31,
-  startHour: 9,
-  endHour: 22,
-  duarationInDays: 1,
-  dayNames: ["Sunday"],
+  startHour: 8,
+  endHour: 24,
+  duarationInDays: 13,
+  dayNames: [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ],
   layout: 1, // 0 - banner layout, 1 - venue layout
-  bannerPath: "logo_gm_events.svg", // only if banner layout
+  bannerPath: "TwitHeader_1500x5002.jpg", // only if banner layout
   venues: [
     {
-      name: "Paralelni Polis",
-      desc: "yay",
+      name: "Museu de Arte do Rio",
+      desc: "The Museu de Arte do Rio promotes a transversal reading of the city’s history, its social fabric, its symbolic life, conflicts, contradictions, challenges and social expectations. MAR is located in Praça Mauá, in two buildings with both heterogeneous and interconnected profiles: the Dom João VI Mansion, listed and eclectic, which houses the exhibition rooms, and the neighbouring building, in a modernist style – originally a bus station – where the Escola do Olhar is situated.",
+      path: "Museu de Arte do Rio.jpeg",
+    },
+     {
+      name: "EthSamba Venue TBA",
+      desc: "EthSamba Venue Desc TBA",
       path: "logo_gm_events.svg",
     },
   ], // only if venue layout
@@ -55,8 +70,12 @@ module.exports = {
         link: "/calendar/",
       },
       {
-        text: "PWN",
-        link: "https://pwn.xyz/",
+        text: "EthRio",
+        link: "https://www.ethereumbrasil.com/ethereumrio/",
+      },
+      {
+        text: "EthSamba",
+        link: "https://www.ethsamba.org/",
       },
     ],
     logo: "logo_gm_events.svg",
