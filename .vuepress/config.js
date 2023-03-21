@@ -20,6 +20,14 @@ module.exports = {
         link: '/calendar/'
       },
       {
+        text: 'EthRio',
+        link: 'https://www.ethereumbrasil.com/ethereumrio'
+      },
+      {
+        text: 'EthSamba',
+        link: 'https://www.ethsamba.org/'
+      },
+      {
         text: 'Submit an Event',
         link: 'https://gmevents.typeform.com/ethrio'
       }
