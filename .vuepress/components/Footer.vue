@@ -8,7 +8,7 @@
 <!--        <a href="#" class="footer_left_socials_link">-->
 <!--          <img src='./../public/instagram.svg' alt="instagram" />-->
 <!--        </a>-->
-        <a href="https://twitter.com/pwndao" class="footer_left_socials_link">
+        <a href="https://twitter.com/pwndao" target="_blank" class="footer_left_socials_link">
           <img src='./../public/twitter.svg' alt="twitter" />
         </a>
       </div>

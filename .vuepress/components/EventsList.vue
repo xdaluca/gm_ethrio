@@ -61,14 +61,26 @@ import EventPreview from "./EventPreview.vue";
 import { capitalizeWord } from "./../theme/util.js";
 import config from "./../config";
 
+const formatDate = (year, month, day) => {
+  // Convert each argument to a two-digit string
+  const yearStr = year.toString().padStart(4, "0");
+  const monthStr = month.toString().padStart(2, "0");
+  const dayStr = day.toString().padStart(2, "0");
+
+  // Return the formatted date string
+  return `${yearStr}-${monthStr}-${dayStr}`;
+};
+
 export default {
   name: "EventsListHome",
   components: { DateTime },
   data: () => ({
     firstDay: new Date(
-      config.startDate.year,
-      config.startDate.month,
-      config.startDate.day
+      formatDate(
+        config.startDate.year,
+        config.startDate.month,
+        config.startDate.day
+      )
     ),
     duration: config.duarationInDays,
     descending: false,
