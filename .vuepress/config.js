@@ -36,7 +36,7 @@ module.exports = {
     {
       name: "Museu de Arte do Rio",
       desc:
-        "One of the main conferences Ethereum Rio23 will be happening in MAR in Praça Mauá. MAR comprises two interconnected buildings: the eclectic Dom João VI Mansion for exhibitions, and a modernist-style former bus station for the Escola do Olhar. The museum offers a transversal reading of the city’s history, social fabric, conflicts, and challenges.",
+        "One of the main conferences Ethereum Rio23 will be happening in MAR in Praça Mauá. MAR comprises two interconnected buildings: the eclectic Dom João VI Mansion for exhibitions, and a modernist-style former bus station for the Escola do Olhar.",
       path: "Museu de Arte do Rio.jpeg",
     },
     {
