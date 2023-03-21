@@ -22,13 +22,13 @@ module.exports = {
   endHour: 24,
   duarationInDays: 13,
   dayNames: [
-    "Monday",
-    "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
     "Saturday",
     "Sunday",
+    "Monday",
+    "Tuesday",
   ],
   layout: 1, // 0 - banner layout, 1 - venue layout
   bannerPath: "TwitHeader_1500x5002.jpg", // only if banner layout
