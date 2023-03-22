@@ -48,10 +48,7 @@ name: Ethereum Rio
 # Indentation is crucial:
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
-synopsis:
-  - Learn Web3 fundamentals or go to more advanced workshops from some of the best educators on Friday 31st of March before starting to hack with your team for 56H with a chance to win more than 10.000 USD in prizes!
-  - And come to a 1-day Conference about Infrastructure, Decentralised and Regenerative Finance, Web3 Social and more.
-  - March 31st to April 2nd, 2023 in Rio de Janeiro 🇧🇷
+
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
