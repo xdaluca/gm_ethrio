@@ -52,7 +52,7 @@ synopsis:
   - After the successful examples of DeSci Berlin, DeSci London, DeSci Boston, DeSci Day (Buenos Aires) and DeSci Denver, the Polygon Guild of Rio de Janeiro decided to organize DeSci Rio. 1 day event on March 29th 2023 as a side-event of Ethereum Rio (March 28-30th) Rio de Janeiro has the most vibrant blockchain community in Brazil with major events as Blockchain Rio Festival, NFT.Rio and ETH Rio happening here. 
   - Furthermore, the MaraValley Innovation Hub is being built in Rio too.
   - This is the first DeSci conference in Brazil. A place where academics and entrepreneurs can meet and build together.
-  - Official languages: Portuguese/Spanish/English
+  - Official languages - Portuguese/Spanish/English
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
