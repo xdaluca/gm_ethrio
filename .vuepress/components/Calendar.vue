@@ -60,7 +60,7 @@ export default {
   data: () => ({
     // First calendar day of the event (October 24)
     firstDay: config.startDate.day,
-    firstMonth: config.startDate.month,
+    firstMonth: config.startDate.month - 1,
     daysInFirstMonth: config.daysInFirstMonth,
     // Hours without the leading zero nor trailing minutes
     firstHour: config.startHour,
