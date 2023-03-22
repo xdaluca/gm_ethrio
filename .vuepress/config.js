@@ -40,16 +40,17 @@ module.exports = {
   bannerPath: "TwitHeader_1500x5002.jpg", // only if banner layout
   venues: [
     {
+      name: "Bamba House",
+      desc: "EthSamba Hack will be located in one of the historic districts of Rio de Janeiro and with access to the attached Museum of the Republic which has some of the nicest open gardens in the city. A surprise Hacker House will be announced soon!",
+      path: "EthSamba_venue.jpg",
+    },
+    {
       name: "Museu de Arte do Rio",
       desc:
         "One of the main conferences Ethereum Rio23 will be happening in MAR in Praça Mauá. MAR comprises two interconnected buildings: the eclectic Dom João VI Mansion for exhibitions, and a modernist-style former bus station for the Escola do Olhar.",
       path: "Museu de Arte do Rio.jpeg",
     },
-    {
-      name: "EthSamba Venue TBA",
-      desc: "EthSamba Venue Desc TBA",
-      path: "logo_gm_events.svg",
-    },
+    
   ], // only if venue layout
   head: [
     ["link", { rel: "manifest", href: "/manifest.json" }],
