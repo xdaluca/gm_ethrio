@@ -41,7 +41,7 @@ description: EthSamba brings you Bootcamp, Workshops, Hackathon and conference a
 #####################
 # The name of the event you're creating.
 # Ideally this is the same as the title.
-name: ETHSamba
+name: ETHSamba Hack
 
 # There _needs_ to be one hyphen before each paragraph.
 # Linebreaks are ignored, but they _must_ start with two spaces.
@@ -75,11 +75,11 @@ tickets: https://www.ethsamba.org/
 price: 0
 
 # The name of the venue where the event will be held. Can be left empty.
-venue: TBD
+venue: Casa Bamba, Centro de Convenções Florida
 
 # The address to link to a Google map. Please test the address on Google Maps.
 # Example: Skalitzer Strasse 85-86, 10997 Berlin, Germany
-address: TBD
+address: R. do Catete, 183 - Glória, Rio de Janeiro - RJ, 22220-000
 
 # The category of the event. Valid options:
 # - conference
