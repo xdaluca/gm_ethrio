@@ -40,8 +40,8 @@ module.exports = {
   bannerPath: "TwitHeader_1500x5002.jpg", // only if banner layout
   venues: [
     {
-      name: "Bamba House",
-      desc: "EthSamba Hack will be located in one of the historic districts of Rio de Janeiro and with access to the attached Museum of the Republic which has some of the nicest open gardens in the city. A surprise Hacker House will be announced soon!",
+      name: "Bamba House - Catete, Rio de Janeiro",
+      desc: "EthSamba Hack will happen at the Centro de Convenções Florida located in Catete one of the historic districts of Rio de Janeiro and with access to the attached Museum of the Republic which has some of the nicest open gardens in the city. A surprise Hacker House will be announced soon!",
       path: "EthSamba_venue.jpg",
     },
     {
