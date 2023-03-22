@@ -49,7 +49,8 @@ name: DeFi for Startups
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-DeFi for Startups é um MeetUp para espaço de encontro de empreendedores, entusiastas, e especialistas para discutir o potencial e as aplicações de DeFi no universo das startups, e como este movimento transformará maneira que as pessoas se relacionam com suas finanças.
+- DeFi for Startups é um MeetUp para espaço de encontro de empreendedores, entusiastas, e especialistas para discutir o potencial e as aplicações de. 
+- DeFi no universo das startups, e como este movimento transformará maneira que as pessoas se relacionam com suas finanças.  
 
 
 # The date should be in the format year-month-day (ISO 8601).
