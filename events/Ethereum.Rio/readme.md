@@ -69,7 +69,7 @@ tickets: https://www.ethereumbrasil.com/ethereumrio
 
 # If the entrance is free, set zero (0) as the price, or leave it empty.
 # _Don't_ write the currency symbol (Euro symbol will be used).
-price: 315
+price: $315
 
 # The name of the venue where the event will be held. Can be left empty.
 venue: Museu de Arte do Rio
