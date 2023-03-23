@@ -158,7 +158,6 @@ export default {
         this.days.push(nextDay);
         this.removeEmptyDay(nextDay);
       }
-      console.log(this.days);
     },
     // Remove the days without events
     removeEmptyDay(day) {

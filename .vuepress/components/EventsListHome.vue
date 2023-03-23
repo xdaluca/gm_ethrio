@@ -148,8 +148,6 @@ export default {
         }
         this.days = [];
         this.setDays();
-        console.log(this.events[0].frontmatter.date);
-        console.log(this.days);
         if (this.descending) this.days.reverse();
       }, this.animationDuration);
     },
