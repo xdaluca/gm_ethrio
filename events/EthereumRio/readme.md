@@ -35,7 +35,6 @@ title: Ethereum Rio
 # Linebreaks are ignored, but they _must_ start with two spaces.
 description: A convergence of creators, builders & thinkers
 
-
 #####################
 ### EVENT DETAILS ###
 #####################
@@ -48,8 +47,9 @@ name: Ethereum Rio
 # Indentation is crucial:
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
-
-
+synopsis:
+  - A convergence of creators, builders & thinkers
+  
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
 date: 2023-03-27
