@@ -55,8 +55,8 @@
 </template>
 
 <script lang="ts">
-import DateTime from './Event/DateTime.vue'
-import ExternalLink from './Utils/ExternalLink.vue'
+import DateTime from "./Event/DateTime.vue";
+import ExternalLink from "./Utils/ExternalLink.vue";
 
 export default {
   components: { DateTime, ExternalLink },
@@ -67,19 +67,18 @@ export default {
       default: null,
     },
   },
-  data () {
+  data() {
     return {
       isMaximazed: false,
-      price: (event) =>{
-        let price = event.frontmatter.price
+      price: (event) => {
+        let price = event.frontmatter.price;
         if (!price || price === 0) {
-          return 'Free'
+          return "Free";
         }
-        price += ' €'
-        return price
-      }
-    }
-  }
+        return price;
+      },
+    };
+  },
 };
 </script>
 
@@ -155,4 +154,3 @@ export default {
       a
         color $primaryAccentColor
 </style>
-
