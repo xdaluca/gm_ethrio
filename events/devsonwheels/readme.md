@@ -33,7 +33,7 @@ title: Devs on Wheels
 # Description for this event. This will be rendered as a <meta> tag in the HTML,
 # and displayed on the /events page. Keep it short.
 # Linebreaks are ignored, but they _must_ start with two spaces.
-description: "Devs on Wheels" is coming and it will be an incredible event that you can't miss.
+description: Devs on Wheels is coming and it will be an incredible event that you can't miss.
 
 #####################
 ### EVENT DETAILS ###
@@ -48,14 +48,14 @@ name: Devs on Wheels
 # Two spaces before the hyphen, four spaces before the text. _No_ tabs allowed.
 # Add or remove paragraphs as needed, but remember the hyphen before each entry.
 synopsis:
-- Hello web3 developers! "Devs on Wheels" is coming and it will be an incredible event that you can't miss. Mark your calendar - March 29th at 7pm at the Rio de Janeiro Ferris Wheel. It will be a night full of learning and networking for the web3 developer community. We will have an introductory talk about the Developer DAO, a talk with the Brazilian community, and a talk from Polygon about zkEVM, so you can stay on top of all the industry news. And it doesn't stop there! After the talks, we will have a party for you to relax and meet other developers. It will be a memorable night that you can't miss. Sign up now and be part of this great web3 developer event. Don't forget to share with your friends, they can't miss this opportunity.
+  - Hello web3 developers! Devs on Wheels is coming and it will be an incredible event that you can't miss. Mark your calendar - March 29th at 7pm at the Rio de Janeiro Ferris Wheel. It will be a night full of learning and networking for the web3 developer community. We will have an introductory talk about the Developer DAO, a talk with the Brazilian community, and a talk from Polygon about zkEVM, so you can stay on top of all the industry news. And it doesn't stop there! After the talks, we will have a party for you to relax and meet other developers. It will be a memorable night that you can't miss. Sign up now and be part of this great web3 developer event. Don't forget to share with your friends, they can't miss this opportunity.
 
 # The date should be in the format year-month-day (ISO 8601).
 # Example: 2018-02-28
 date: 2023-03-29
 # The date when the event ends. Can be left empty or set to the same day the
 # event starts.
-date: 2023-03-30
+endDate: 2023-03-30
 
 # Set the time in 24 hours format, surrounded by quotes.
 # _Only_ the starting time!
@@ -88,7 +88,6 @@ address: Roda Gigante Rio Star- Av. Rodrigues Alves, 455 – Santo Cristo
 # Use _only_ one, and don't capitalize.
 category: event
 
-
 #################
 ### SPEAKERS ####
 #################
@@ -105,4 +104,3 @@ speakers:
 <!-- ### DON'T MAKE CHANGES BELOW THIS LINE! ### -->
 
 <Event-Content/>
-
